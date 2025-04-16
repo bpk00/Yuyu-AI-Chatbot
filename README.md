@@ -73,3 +73,9 @@ To run the frontend:
 - Ensure that both the backend and frontend are running simultaneously for proper communication between the two.
 - If you encounter any issues, check the terminal for error messages.
 
+### YuYu - AI Chatbot Interface Preview
+
+<p align="center">
+  <img src="YuYu.png" alt="YuYu" />
+</p> 
+
