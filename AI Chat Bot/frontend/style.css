@@ -120,6 +120,7 @@ body.show-chatbot .chatbot-popup {
     background: var(--background-color);
     padding: 15px 22px;
     justify-content: space-between;
+    z-index: 500;
 }
 
 .chat-header .header-info {
