@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
+# Normalize line endings
 * text=auto
+
+# Handle JavaScript and JSON files
+*.js text
+*.json text
+
+# Prevent .env from being included in archive exports
+.env export-ignore

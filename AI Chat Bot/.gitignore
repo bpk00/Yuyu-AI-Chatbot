@@ -1,0 +1,12 @@
+# Backend dependencies and environment variables
+backend/node_modules/
+backend/.env
+
+# Other
+myNotes.txt
+
+# System and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
