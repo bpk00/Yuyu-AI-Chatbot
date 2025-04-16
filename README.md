@@ -25,6 +25,8 @@ YuYu is a simple and friendly web-based chatbot that allows users to send text a
 ### 🔌 API Integration
 - [Gemini API (by Google)](https://ai.google.dev/gemini-api)
 
+##
+
 ## 🚀 Project Setup Guide
 
 Follow the steps below to set up and run the **Yuyu AI Chatbot** locally:
@@ -73,7 +75,9 @@ To run the frontend:
 - Ensure that both the backend and frontend are running simultaneously for proper communication between the two.
 - If you encounter any issues, check the terminal for error messages.
 
-### YuYu - AI Chatbot Interface Preview
+##
+
+## 👁️ YuYu - AI Chatbot Interface Preview
 
 <p align="center">
   <img src="YuYu.png" alt="YuYu" />
