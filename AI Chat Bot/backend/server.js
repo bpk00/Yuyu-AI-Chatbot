@@ -80,9 +80,10 @@ app.post('/api/chat', upload.single('file'), async (req, res) => {
         // const geminiOutput = { parts: [{ text: reply }] };
         chatHistoryStore.push({ role: 'model', parts: [{ text: reply }] });
 
+        // console.log("Chat History:", JSON.stringify(chatHistoryStore));
+
         // Send Back Response to Frontend
         res.json({ formattedReply });
-        console.log("Chat History:", JSON.stringify(chatHistoryStore));
     } catch (err) {
         console.error("API Error:", err);
         res.status(500).json({ error: "Something went wrong." });
@@ -93,4 +94,4 @@ app.post('/api/chat', upload.single('file'), async (req, res) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
-});
+}); 

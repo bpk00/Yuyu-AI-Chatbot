@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Colors */
-:root {
+/* :root {
     --gradient-start: #EEEEEF;
     --gradient-end: #C8C7FF;
     --primary-color: #5350C4;
@@ -13,6 +13,32 @@
     --background-comment-box: #F2F2FF;
     --background-footer-buttons: #f1f1ff;
     --outline: #CCCCE5;
+} */
+
+:root {
+    /* Base color  */
+    --main-color: #527ac7;
+    --primary-hue: 215;
+    --primary-saturation: 70%;
+    --primary-lightness: 55%;
+  
+    /* Primary colors */
+    --primary-color: hsl(var(--primary-hue), var(--primary-saturation), var(--primary-lightness));
+    --primary-color-2: hsl(var(--primary-hue), var(--primary-saturation), 65%);
+    --primary-color-footer-btn-text: hsl(var(--primary-hue), 35%, 60%);
+  
+    /* Gradient */
+    --gradient-start: hsl(var(--primary-hue), 20%, 95%);
+    --gradient-end: hsl(var(--primary-hue), 100%, 90%);
+  
+    /* Backgrounds */
+    --background-color: hsl(var(--primary-hue), var(--primary-saturation), 45%);
+    --background-color-2: hsl(var(--primary-hue), var(--primary-saturation), 35%);
+    --background-comment-box: hsl(var(--primary-hue), 100%, 96%);
+    --background-footer-buttons: hsl(var(--primary-hue), 100%, 95%);
+  
+    /* Outline */
+    --outline: hsl(var(--primary-hue), 20%, 85%);
 }
 
 * {
@@ -167,7 +193,7 @@ body.show-chatbot .chatbot-popup {
 
 .chatbot-body .user-message .message-text {
     color: #fff;
-    background: var(--primary-color);
+    background: var(--background-color);
     border-radius: 10px 3px 10px 10px;
     font-weight: 300;
 }  
